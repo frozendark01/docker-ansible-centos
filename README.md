@@ -1,3 +1,6 @@
+[![Docker Image CI](https://github.com/frozendark01/docker-ansible-centos/actions/workflows/docker-image.yml/badge.svg)](https://github.com/frozendark01/docker-ansible-centos/actions/workflows/docker-image.yml)
+<br />
+
 # Ansible running in a Docker container  - Azure
 
 Create an Azure Service Principal =>
