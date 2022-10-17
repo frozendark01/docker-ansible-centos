@@ -20,13 +20,9 @@ run => ansible --version
 # Connect to Azure from the Ansible container.
 Assign the following environment variables to connect to Azure:
 <pre>
-export AZURE_TENANT="azure_tenant_id"
-export AZURE_SUBSCRIPTION_ID="azure_subscription_id"
-export AZURE_CLIENT_ID="service_principal_app_id"
-export AZURE_SECRET="service_principal_password"
-</pre>
-
-Testing: Run the following Ansible command to create a resource group:
-<pre>ansible localhost -m azure_rm_resourcegroup -a 'name=myResourceGroup location=eastus'
+export AZURE_TENANT="<azure_tenant_id>"
+export AZURE_SUBSCRIPTION_ID="<azure_subscription_id>"
+export AZURE_CLIENT_ID="<service_principal_app_id>"
+export AZURE_SECRET="<service_principal_password>"
 </pre>
 
