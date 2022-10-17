@@ -26,3 +26,6 @@ export AZURE_CLIENT_ID="<service_principal_app_id>"
 export AZURE_SECRET="<service_principal_password>"
 </pre>
 
+Run the following Ansible command to create a resource group:
+<pre>ansible localhost -m azure_rm_resourcegroup -a 'name=myResourceGroup location=eastus'
+</pre>
