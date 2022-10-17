@@ -20,9 +20,9 @@ run => ansible --version
 # Connect to Azure from the Ansible container.
 Assign the following environment variables to connect to Azure:
 <pre>
-export AZURE_TENANT="<azure_tenant_id>"
-export AZURE_SUBSCRIPTION_ID="<azure_subscription_id>"
-export AZURE_CLIENT_ID="<service_principal_app_id>"
-export AZURE_SECRET="<service_principal_password>"
+export AZURE_TENANT="azure_tenant_id"
+export AZURE_SUBSCRIPTION_ID="azure_subscription_id"
+export AZURE_CLIENT_ID="service_principal_app_id"
+export AZURE_SECRET="service_principal_password"
 </pre>
 
