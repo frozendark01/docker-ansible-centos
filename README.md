@@ -1,5 +1,4 @@
-[![Docker Image CI](https://github.com/frozendark01/docker-ansible-centos/actions/workflows/docker-image.yml/badge.svg)](https://github.com/frozendark01/docker-ansible-centos/actions/workflows/docker-image.yml)&nbsp; [![Docker](https://github.com/frozendark01/docker-ansible-centos/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/frozendark01/docker-ansible-centos/actions/workflows/docker-publish.yml)
-<br />
+
 
 # Ansible running in a Docker container  - Azure
 
